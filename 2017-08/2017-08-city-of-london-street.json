@@ -1,0 +1,5590 @@
+{'type':'FeatureCollection','features':[{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.095892,51.516391]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.097601,51.520699]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.097277,51.515307]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.097409,51.521145]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.095960,51.517534]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.095892,51.516391]
+},
+properties: {
+title: 'Mapbox',
+description: 'Bicycle theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.097562,51.518864]
+},
+properties: {
+title: 'Mapbox',
+description: 'Bicycle theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.095892,51.516391]
+},
+properties: {
+title: 'Mapbox',
+description: 'Bicycle theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.098642,51.517146]
+},
+properties: {
+title: 'Mapbox',
+description: 'Bicycle theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.098062,51.517577]
+},
+properties: {
+title: 'Mapbox',
+description: 'Bicycle theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.098572,51.516767]
+},
+properties: {
+title: 'Mapbox',
+description: 'Criminal damage and arson'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.097562,51.518864]
+},
+properties: {
+title: 'Mapbox',
+description: 'Criminal damage and arson'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.097562,51.518864]
+},
+properties: {
+title: 'Mapbox',
+description: 'Drugs'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.095892,51.516391]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.095960,51.517534]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.097601,51.520699]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.097601,51.520699]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.098062,51.517577]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.098642,51.517146]
+},
+properties: {
+title: 'Mapbox',
+description: 'Public order'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.097223,51.515225]
+},
+properties: {
+title: 'Mapbox',
+description: 'Shoplifting'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.097562,51.518864]
+},
+properties: {
+title: 'Mapbox',
+description: 'Theft from the person'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.097562,51.518864]
+},
+properties: {
+title: 'Mapbox',
+description: 'Theft from the person'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.097562,51.518864]
+},
+properties: {
+title: 'Mapbox',
+description: 'Theft from the person'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.097562,51.518864]
+},
+properties: {
+title: 'Mapbox',
+description: 'Vehicle crime'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.097409,51.521145]
+},
+properties: {
+title: 'Mapbox',
+description: 'Violence and sexual offences'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.097601,51.520699]
+},
+properties: {
+title: 'Mapbox',
+description: 'Violence and sexual offences'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.098572,51.516767]
+},
+properties: {
+title: 'Mapbox',
+description: 'Violence and sexual offences'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.089596,51.518743]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.093948,51.518077]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.089596,51.518743]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.094094,51.515606]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.093948,51.518077]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.089596,51.518743]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.091440,51.519807]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.089596,51.518743]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.091440,51.519807]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.092517,51.520580]
+},
+properties: {
+title: 'Mapbox',
+description: 'Bicycle theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.089596,51.518743]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.088621,51.518619]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.094094,51.515606]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.092517,51.520580]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.095400,51.515753]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.090348,51.519358]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.093933,51.519812]
+},
+properties: {
+title: 'Mapbox',
+description: 'Public order'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.092517,51.520580]
+},
+properties: {
+title: 'Mapbox',
+description: 'Theft from the person'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.092517,51.520580]
+},
+properties: {
+title: 'Mapbox',
+description: 'Theft from the person'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.092517,51.520580]
+},
+properties: {
+title: 'Mapbox',
+description: 'Theft from the person'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.090348,51.519358]
+},
+properties: {
+title: 'Mapbox',
+description: 'Theft from the person'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.090348,51.519358]
+},
+properties: {
+title: 'Mapbox',
+description: 'Violence and sexual offences'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.094033,51.520875]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.096114,51.520747]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.095381,51.521391]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.096114,51.520747]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.095860,51.521660]
+},
+properties: {
+title: 'Mapbox',
+description: 'Bicycle theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.094468,51.521853]
+},
+properties: {
+title: 'Mapbox',
+description: 'Bicycle theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.095860,51.521660]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.095377,51.520789]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.094468,51.521853]
+},
+properties: {
+title: 'Mapbox',
+description: 'Possession of weapons'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.095860,51.521660]
+},
+properties: {
+title: 'Mapbox',
+description: 'Theft from the person'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.095860,51.521660]
+},
+properties: {
+title: 'Mapbox',
+description: 'Theft from the person'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.095377,51.520789]
+},
+properties: {
+title: 'Mapbox',
+description: 'Theft from the person'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.077392,51.516233]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.076435,51.513627]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.078806,51.516193]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.076435,51.513627]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.076270,51.515504]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.076435,51.513627]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.073230,51.510004]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.075508,51.514763]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.073230,51.510004]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.076435,51.513627]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.076270,51.515504]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.076270,51.515504]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.073254,51.512856]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.075146,51.513435]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.076270,51.515504]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.075508,51.514763]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.075146,51.513435]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.073065,51.511180]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.076270,51.515504]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.076270,51.515504]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.075508,51.514763]
+},
+properties: {
+title: 'Mapbox',
+description: 'Bicycle theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.075508,51.514763]
+},
+properties: {
+title: 'Mapbox',
+description: 'Bicycle theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.073254,51.512856]
+},
+properties: {
+title: 'Mapbox',
+description: 'Bicycle theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.076044,51.512650]
+},
+properties: {
+title: 'Mapbox',
+description: 'Bicycle theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.078806,51.516193]
+},
+properties: {
+title: 'Mapbox',
+description: 'Burglary'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.076435,51.513627]
+},
+properties: {
+title: 'Mapbox',
+description: 'Criminal damage and arson'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.073254,51.512856]
+},
+properties: {
+title: 'Mapbox',
+description: 'Criminal damage and arson'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.075508,51.514763]
+},
+properties: {
+title: 'Mapbox',
+description: 'Drugs'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.075508,51.514763]
+},
+properties: {
+title: 'Mapbox',
+description: 'Drugs'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.076113,51.511014]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.077224,51.516122]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.076044,51.512650]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.075508,51.514763]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.078250,51.515033]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.079607,51.515657]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.074793,51.511208]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.076113,51.511014]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.077451,51.515523]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.077451,51.515523]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.076044,51.512650]
+},
+properties: {
+title: 'Mapbox',
+description: 'Possession of weapons'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.076833,51.513769]
+},
+properties: {
+title: 'Mapbox',
+description: 'Public order'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.076592,51.514367]
+},
+properties: {
+title: 'Mapbox',
+description: 'Shoplifting'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.076044,51.512650]
+},
+properties: {
+title: 'Mapbox',
+description: 'Vehicle crime'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.074330,51.513647]
+},
+properties: {
+title: 'Mapbox',
+description: 'Violence and sexual offences'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.078393,51.515728]
+},
+properties: {
+title: 'Mapbox',
+description: 'Violence and sexual offences'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.076592,51.514367]
+},
+properties: {
+title: 'Mapbox',
+description: 'Violence and sexual offences'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.077451,51.515523]
+},
+properties: {
+title: 'Mapbox',
+description: 'Violence and sexual offences'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.076080,51.511445]
+},
+properties: {
+title: 'Mapbox',
+description: 'Violence and sexual offences'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.077451,51.515523]
+},
+properties: {
+title: 'Mapbox',
+description: 'Violence and sexual offences'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.075146,51.513435]
+},
+properties: {
+title: 'Mapbox',
+description: 'Violence and sexual offences'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.075389,51.511775]
+},
+properties: {
+title: 'Mapbox',
+description: 'Violence and sexual offences'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.076592,51.514367]
+},
+properties: {
+title: 'Mapbox',
+description: 'Violence and sexual offences'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.079162,51.514940]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.079786,51.517576]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.082458,51.517431]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.081580,51.520510]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.094464,51.512959]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.084251,51.520059]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.082628,51.518189]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.082628,51.518189]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.078994,51.514137]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.078994,51.514137]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.082628,51.518189]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.089536,51.516719]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.085257,51.511200]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.100178,51.511415]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.089536,51.516719]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.086051,51.513569]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.097213,51.511322]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.086393,51.510894]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.079398,51.516508]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.082722,51.518029]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.085310,51.518511]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.086393,51.510894]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.086393,51.510894]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.077935,51.514281]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.082722,51.518029]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.079786,51.517576]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.079287,51.511956]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.079283,51.511021]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.083506,51.509993]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.100178,51.511415]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.082628,51.518189]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.082722,51.518029]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.089536,51.516719]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.089536,51.516719]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.078924,51.508587]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.078924,51.508587]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.084105,51.515281]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.093493,51.513447]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.079786,51.517576]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.082811,51.510054]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.085149,51.517196]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.088225,51.514656]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.093493,51.513447]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.093493,51.513447]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.082628,51.518189]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.093493,51.513447]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.079786,51.517576]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.077935,51.514281]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.079786,51.517576]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.083150,51.510913]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.089536,51.516719]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.101959,51.513297]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.083120,51.510598]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.092865,51.510182]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.093493,51.513447]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.082965,51.516351]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.101055,51.513552]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.082628,51.518189]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.078484,51.517680]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.080234,51.516855]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.081549,51.511625]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.082628,51.518189]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.085310,51.518511]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.079786,51.517576]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.080034,51.513389]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.102948,51.512719]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.078488,51.517923]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.077935,51.514281]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.097645,51.515142]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.079011,51.509614]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.081938,51.513007]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.086278,51.509876]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.078488,51.517923]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.089536,51.516719]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.102948,51.512719]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.078488,51.517923]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.079786,51.517576]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.097645,51.515142]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.097699,51.511420]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.092865,51.510182]
+},
+properties: {
+title: 'Mapbox',
+description: 'Bicycle theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.084566,51.517690]
+},
+properties: {
+title: 'Mapbox',
+description: 'Bicycle theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.078994,51.514137]
+},
+properties: {
+title: 'Mapbox',
+description: 'Bicycle theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.092865,51.510182]
+},
+properties: {
+title: 'Mapbox',
+description: 'Bicycle theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.102668,51.513560]
+},
+properties: {
+title: 'Mapbox',
+description: 'Bicycle theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.098777,51.512526]
+},
+properties: {
+title: 'Mapbox',
+description: 'Bicycle theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.094197,51.510734]
+},
+properties: {
+title: 'Mapbox',
+description: 'Bicycle theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.097645,51.515142]
+},
+properties: {
+title: 'Mapbox',
+description: 'Bicycle theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.082571,51.514753]
+},
+properties: {
+title: 'Mapbox',
+description: 'Bicycle theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.101074,51.515162]
+},
+properties: {
+title: 'Mapbox',
+description: 'Bicycle theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.094758,51.512829]
+},
+properties: {
+title: 'Mapbox',
+description: 'Bicycle theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.094758,51.512829]
+},
+properties: {
+title: 'Mapbox',
+description: 'Bicycle theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.092296,51.511386]
+},
+properties: {
+title: 'Mapbox',
+description: 'Bicycle theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.085355,51.510563]
+},
+properties: {
+title: 'Mapbox',
+description: 'Bicycle theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.078924,51.508587]
+},
+properties: {
+title: 'Mapbox',
+description: 'Bicycle theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.094197,51.510734]
+},
+properties: {
+title: 'Mapbox',
+description: 'Bicycle theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.081091,51.516014]
+},
+properties: {
+title: 'Mapbox',
+description: 'Bicycle theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.082628,51.518189]
+},
+properties: {
+title: 'Mapbox',
+description: 'Bicycle theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.084251,51.520059]
+},
+properties: {
+title: 'Mapbox',
+description: 'Bicycle theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.085014,51.509775]
+},
+properties: {
+title: 'Mapbox',
+description: 'Bicycle theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.087118,51.513199]
+},
+properties: {
+title: 'Mapbox',
+description: 'Bicycle theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.102411,51.512117]
+},
+properties: {
+title: 'Mapbox',
+description: 'Bicycle theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.094758,51.512829]
+},
+properties: {
+title: 'Mapbox',
+description: 'Bicycle theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.084095,51.516900]
+},
+properties: {
+title: 'Mapbox',
+description: 'Bicycle theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.092865,51.510182]
+},
+properties: {
+title: 'Mapbox',
+description: 'Bicycle theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.096363,51.513377]
+},
+properties: {
+title: 'Mapbox',
+description: 'Bicycle theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.081938,51.513007]
+},
+properties: {
+title: 'Mapbox',
+description: 'Bicycle theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.092296,51.511386]
+},
+properties: {
+title: 'Mapbox',
+description: 'Bicycle theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.083645,51.512504]
+},
+properties: {
+title: 'Mapbox',
+description: 'Burglary'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.079786,51.517576]
+},
+properties: {
+title: 'Mapbox',
+description: 'Burglary'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.078308,51.518091]
+},
+properties: {
+title: 'Mapbox',
+description: 'Burglary'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.084701,51.509320]
+},
+properties: {
+title: 'Mapbox',
+description: 'Burglary'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.091108,51.511529]
+},
+properties: {
+title: 'Mapbox',
+description: 'Burglary'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.084768,51.512882]
+},
+properties: {
+title: 'Mapbox',
+description: 'Burglary'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.087760,51.517149]
+},
+properties: {
+title: 'Mapbox',
+description: 'Burglary'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.087118,51.513199]
+},
+properties: {
+title: 'Mapbox',
+description: 'Burglary'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.080665,51.509344]
+},
+properties: {
+title: 'Mapbox',
+description: 'Burglary'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.084967,51.512598]
+},
+properties: {
+title: 'Mapbox',
+description: 'Burglary'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.086272,51.513114]
+},
+properties: {
+title: 'Mapbox',
+description: 'Burglary'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.080322,51.510651]
+},
+properties: {
+title: 'Mapbox',
+description: 'Burglary'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.079786,51.517576]
+},
+properties: {
+title: 'Mapbox',
+description: 'Burglary'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.081620,51.516814]
+},
+properties: {
+title: 'Mapbox',
+description: 'Burglary'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.086272,51.513114]
+},
+properties: {
+title: 'Mapbox',
+description: 'Burglary'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.096846,51.511478]
+},
+properties: {
+title: 'Mapbox',
+description: 'Criminal damage and arson'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.084701,51.509320]
+},
+properties: {
+title: 'Mapbox',
+description: 'Criminal damage and arson'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.078856,51.518433]
+},
+properties: {
+title: 'Mapbox',
+description: 'Criminal damage and arson'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.092719,51.512652]
+},
+properties: {
+title: 'Mapbox',
+description: 'Criminal damage and arson'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.084701,51.509320]
+},
+properties: {
+title: 'Mapbox',
+description: 'Criminal damage and arson'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.080322,51.510651]
+},
+properties: {
+title: 'Mapbox',
+description: 'Criminal damage and arson'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.101055,51.513552]
+},
+properties: {
+title: 'Mapbox',
+description: 'Drugs'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.086764,51.510307]
+},
+properties: {
+title: 'Mapbox',
+description: 'Drugs'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.086624,51.511923]
+},
+properties: {
+title: 'Mapbox',
+description: 'Drugs'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.084095,51.516900]
+},
+properties: {
+title: 'Mapbox',
+description: 'Drugs'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.088995,51.512088]
+},
+properties: {
+title: 'Mapbox',
+description: 'Drugs'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.096363,51.513377]
+},
+properties: {
+title: 'Mapbox',
+description: 'Drugs'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.083993,51.511440]
+},
+properties: {
+title: 'Mapbox',
+description: 'Drugs'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.082965,51.516351]
+},
+properties: {
+title: 'Mapbox',
+description: 'Drugs'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.088995,51.512088]
+},
+properties: {
+title: 'Mapbox',
+description: 'Drugs'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.083296,51.517058]
+},
+properties: {
+title: 'Mapbox',
+description: 'Drugs'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.079786,51.517576]
+},
+properties: {
+title: 'Mapbox',
+description: 'Drugs'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.079786,51.517576]
+},
+properties: {
+title: 'Mapbox',
+description: 'Drugs'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.078856,51.518433]
+},
+properties: {
+title: 'Mapbox',
+description: 'Drugs'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.077578,51.510795]
+},
+properties: {
+title: 'Mapbox',
+description: 'Drugs'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.082571,51.514753]
+},
+properties: {
+title: 'Mapbox',
+description: 'Drugs'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.083993,51.511440]
+},
+properties: {
+title: 'Mapbox',
+description: 'Drugs'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.086166,51.510828]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.077777,51.518046]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.084618,51.512682]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.087666,51.511122]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.091151,51.516026]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.079786,51.517576]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.089364,51.515331]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.081890,51.515173]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.086051,51.513569]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.084095,51.516900]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.094628,51.514203]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.080146,51.514848]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.090797,51.514482]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.088995,51.512088]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.082571,51.514753]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.089698,51.511812]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.091720,51.513454]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.079875,51.510995]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.082811,51.510054]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.087118,51.513199]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.086051,51.513569]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.090419,51.514917]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.083120,51.510598]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.091720,51.513454]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.084566,51.517690]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.100179,51.514158]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.097645,51.515142]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.079786,51.517576]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.101073,51.513453]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.084095,51.516900]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.086278,51.509876]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.090710,51.513132]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.087153,51.518910]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.081890,51.515173]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.087549,51.514276]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.083755,51.514358]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.092865,51.510182]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.079444,51.512678]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.084201,51.510949]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.082913,51.513463]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.083242,51.512165]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.082571,51.514753]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.097645,51.515142]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.083993,51.511440]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.082571,51.514753]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.086393,51.510894]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.093493,51.513447]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.083993,51.511440]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.084105,51.515281]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.080782,51.514804]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.086166,51.510828]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.080376,51.517244]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.080376,51.517244]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.086278,51.509876]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.084618,51.512682]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.082965,51.516351]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.082811,51.510054]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.091823,51.514418]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.076853,51.511916]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.101274,51.512791]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.092719,51.512652]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.081516,51.510014]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.091720,51.513454]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.080318,51.520678]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.083755,51.514358]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.088843,51.509532]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.086272,51.513114]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.080728,51.511611]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.100179,51.514158]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.093796,51.512391]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.082913,51.513463]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.079786,51.517576]
+},
+properties: {
+title: 'Mapbox',
+description: 'Possession of weapons'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.082811,51.510054]
+},
+properties: {
+title: 'Mapbox',
+description: 'Possession of weapons'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.094628,51.514203]
+},
+properties: {
+title: 'Mapbox',
+description: 'Public order'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.078994,51.514137]
+},
+properties: {
+title: 'Mapbox',
+description: 'Public order'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.084105,51.515281]
+},
+properties: {
+title: 'Mapbox',
+description: 'Public order'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.083993,51.511440]
+},
+properties: {
+title: 'Mapbox',
+description: 'Public order'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.079786,51.517576]
+},
+properties: {
+title: 'Mapbox',
+description: 'Public order'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.094758,51.512829]
+},
+properties: {
+title: 'Mapbox',
+description: 'Public order'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.079786,51.517576]
+},
+properties: {
+title: 'Mapbox',
+description: 'Public order'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.077578,51.510795]
+},
+properties: {
+title: 'Mapbox',
+description: 'Public order'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.082527,51.512027]
+},
+properties: {
+title: 'Mapbox',
+description: 'Public order'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.080318,51.520678]
+},
+properties: {
+title: 'Mapbox',
+description: 'Public order'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.091084,51.513830]
+},
+properties: {
+title: 'Mapbox',
+description: 'Public order'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.096363,51.513377]
+},
+properties: {
+title: 'Mapbox',
+description: 'Robbery'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.101073,51.513453]
+},
+properties: {
+title: 'Mapbox',
+description: 'Robbery'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.094464,51.512959]
+},
+properties: {
+title: 'Mapbox',
+description: 'Robbery'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.084105,51.515281]
+},
+properties: {
+title: 'Mapbox',
+description: 'Shoplifting'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.084618,51.512682]
+},
+properties: {
+title: 'Mapbox',
+description: 'Shoplifting'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.096363,51.513377]
+},
+properties: {
+title: 'Mapbox',
+description: 'Shoplifting'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.085310,51.518511]
+},
+properties: {
+title: 'Mapbox',
+description: 'Shoplifting'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.092268,51.514461]
+},
+properties: {
+title: 'Mapbox',
+description: 'Shoplifting'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.080728,51.511611]
+},
+properties: {
+title: 'Mapbox',
+description: 'Shoplifting'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.080376,51.517244]
+},
+properties: {
+title: 'Mapbox',
+description: 'Shoplifting'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.086393,51.510894]
+},
+properties: {
+title: 'Mapbox',
+description: 'Shoplifting'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.086624,51.511923]
+},
+properties: {
+title: 'Mapbox',
+description: 'Shoplifting'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.090804,51.511560]
+},
+properties: {
+title: 'Mapbox',
+description: 'Shoplifting'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.096363,51.513377]
+},
+properties: {
+title: 'Mapbox',
+description: 'Shoplifting'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.093257,51.513920]
+},
+properties: {
+title: 'Mapbox',
+description: 'Shoplifting'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.100179,51.514158]
+},
+properties: {
+title: 'Mapbox',
+description: 'Shoplifting'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.077694,51.513171]
+},
+properties: {
+title: 'Mapbox',
+description: 'Shoplifting'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.096561,51.514513]
+},
+properties: {
+title: 'Mapbox',
+description: 'Shoplifting'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.080782,51.514804]
+},
+properties: {
+title: 'Mapbox',
+description: 'Shoplifting'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.078856,51.518433]
+},
+properties: {
+title: 'Mapbox',
+description: 'Shoplifting'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.091084,51.513830]
+},
+properties: {
+title: 'Mapbox',
+description: 'Shoplifting'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.086624,51.511923]
+},
+properties: {
+title: 'Mapbox',
+description: 'Shoplifting'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.083993,51.511440]
+},
+properties: {
+title: 'Mapbox',
+description: 'Shoplifting'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.096561,51.514513]
+},
+properties: {
+title: 'Mapbox',
+description: 'Shoplifting'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.080376,51.517244]
+},
+properties: {
+title: 'Mapbox',
+description: 'Shoplifting'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.086624,51.511923]
+},
+properties: {
+title: 'Mapbox',
+description: 'Shoplifting'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.086624,51.511923]
+},
+properties: {
+title: 'Mapbox',
+description: 'Shoplifting'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.085310,51.518511]
+},
+properties: {
+title: 'Mapbox',
+description: 'Shoplifting'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.084201,51.510949]
+},
+properties: {
+title: 'Mapbox',
+description: 'Shoplifting'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.086624,51.511923]
+},
+properties: {
+title: 'Mapbox',
+description: 'Shoplifting'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.083086,51.511407]
+},
+properties: {
+title: 'Mapbox',
+description: 'Shoplifting'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.080376,51.517244]
+},
+properties: {
+title: 'Mapbox',
+description: 'Shoplifting'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.094231,51.511984]
+},
+properties: {
+title: 'Mapbox',
+description: 'Shoplifting'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.086393,51.510894]
+},
+properties: {
+title: 'Mapbox',
+description: 'Shoplifting'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.091720,51.513454]
+},
+properties: {
+title: 'Mapbox',
+description: 'Shoplifting'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.084967,51.512598]
+},
+properties: {
+title: 'Mapbox',
+description: 'Shoplifting'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.080782,51.514804]
+},
+properties: {
+title: 'Mapbox',
+description: 'Shoplifting'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.091720,51.513454]
+},
+properties: {
+title: 'Mapbox',
+description: 'Shoplifting'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.080376,51.517244]
+},
+properties: {
+title: 'Mapbox',
+description: 'Shoplifting'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.080728,51.511611]
+},
+properties: {
+title: 'Mapbox',
+description: 'Shoplifting'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.087118,51.513199]
+},
+properties: {
+title: 'Mapbox',
+description: 'Shoplifting'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.083086,51.511407]
+},
+properties: {
+title: 'Mapbox',
+description: 'Shoplifting'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.077694,51.513171]
+},
+properties: {
+title: 'Mapbox',
+description: 'Shoplifting'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.084967,51.512598]
+},
+properties: {
+title: 'Mapbox',
+description: 'Shoplifting'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.096561,51.514513]
+},
+properties: {
+title: 'Mapbox',
+description: 'Shoplifting'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.080376,51.517244]
+},
+properties: {
+title: 'Mapbox',
+description: 'Shoplifting'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.078488,51.517923]
+},
+properties: {
+title: 'Mapbox',
+description: 'Shoplifting'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.097645,51.515142]
+},
+properties: {
+title: 'Mapbox',
+description: 'Shoplifting'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.090804,51.511560]
+},
+properties: {
+title: 'Mapbox',
+description: 'Shoplifting'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.087760,51.517149]
+},
+properties: {
+title: 'Mapbox',
+description: 'Shoplifting'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.088995,51.512088]
+},
+properties: {
+title: 'Mapbox',
+description: 'Shoplifting'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.082571,51.514753]
+},
+properties: {
+title: 'Mapbox',
+description: 'Theft from the person'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.079786,51.517576]
+},
+properties: {
+title: 'Mapbox',
+description: 'Theft from the person'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.085173,51.518680]
+},
+properties: {
+title: 'Mapbox',
+description: 'Theft from the person'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.085014,51.509775]
+},
+properties: {
+title: 'Mapbox',
+description: 'Theft from the person'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.084566,51.517690]
+},
+properties: {
+title: 'Mapbox',
+description: 'Theft from the person'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.080952,51.514528]
+},
+properties: {
+title: 'Mapbox',
+description: 'Theft from the person'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.082571,51.514753]
+},
+properties: {
+title: 'Mapbox',
+description: 'Theft from the person'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.096900,51.510868]
+},
+properties: {
+title: 'Mapbox',
+description: 'Theft from the person'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.088203,51.518262]
+},
+properties: {
+title: 'Mapbox',
+description: 'Theft from the person'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.086166,51.510828]
+},
+properties: {
+title: 'Mapbox',
+description: 'Theft from the person'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.082965,51.516351]
+},
+properties: {
+title: 'Mapbox',
+description: 'Theft from the person'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.088843,51.509532]
+},
+properties: {
+title: 'Mapbox',
+description: 'Theft from the person'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.088203,51.518262]
+},
+properties: {
+title: 'Mapbox',
+description: 'Theft from the person'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.101073,51.513453]
+},
+properties: {
+title: 'Mapbox',
+description: 'Theft from the person'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.100179,51.514158]
+},
+properties: {
+title: 'Mapbox',
+description: 'Theft from the person'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.082571,51.514753]
+},
+properties: {
+title: 'Mapbox',
+description: 'Theft from the person'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.084566,51.517690]
+},
+properties: {
+title: 'Mapbox',
+description: 'Theft from the person'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.091108,51.511529]
+},
+properties: {
+title: 'Mapbox',
+description: 'Vehicle crime'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.078308,51.518091]
+},
+properties: {
+title: 'Mapbox',
+description: 'Vehicle crime'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.100202,51.513268]
+},
+properties: {
+title: 'Mapbox',
+description: 'Vehicle crime'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.092719,51.512652]
+},
+properties: {
+title: 'Mapbox',
+description: 'Vehicle crime'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.083993,51.511440]
+},
+properties: {
+title: 'Mapbox',
+description: 'Vehicle crime'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.082571,51.514753]
+},
+properties: {
+title: 'Mapbox',
+description: 'Violence and sexual offences'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.085173,51.518680]
+},
+properties: {
+title: 'Mapbox',
+description: 'Violence and sexual offences'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.088456,51.514993]
+},
+properties: {
+title: 'Mapbox',
+description: 'Violence and sexual offences'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.084618,51.512682]
+},
+properties: {
+title: 'Mapbox',
+description: 'Violence and sexual offences'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.079613,51.517231]
+},
+properties: {
+title: 'Mapbox',
+description: 'Violence and sexual offences'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.086764,51.510307]
+},
+properties: {
+title: 'Mapbox',
+description: 'Violence and sexual offences'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.083150,51.510913]
+},
+properties: {
+title: 'Mapbox',
+description: 'Violence and sexual offences'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.101055,51.513552]
+},
+properties: {
+title: 'Mapbox',
+description: 'Violence and sexual offences'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.093398,51.512951]
+},
+properties: {
+title: 'Mapbox',
+description: 'Violence and sexual offences'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.104494,51.509848]
+},
+properties: {
+title: 'Mapbox',
+description: 'Violence and sexual offences'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.092865,51.510182]
+},
+properties: {
+title: 'Mapbox',
+description: 'Violence and sexual offences'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.092865,51.510182]
+},
+properties: {
+title: 'Mapbox',
+description: 'Violence and sexual offences'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.094758,51.512829]
+},
+properties: {
+title: 'Mapbox',
+description: 'Violence and sexual offences'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.085173,51.518680]
+},
+properties: {
+title: 'Mapbox',
+description: 'Violence and sexual offences'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.084566,51.517690]
+},
+properties: {
+title: 'Mapbox',
+description: 'Violence and sexual offences'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.084251,51.520059]
+},
+properties: {
+title: 'Mapbox',
+description: 'Violence and sexual offences'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.086051,51.513569]
+},
+properties: {
+title: 'Mapbox',
+description: 'Violence and sexual offences'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.084251,51.520059]
+},
+properties: {
+title: 'Mapbox',
+description: 'Violence and sexual offences'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.084251,51.520059]
+},
+properties: {
+title: 'Mapbox',
+description: 'Violence and sexual offences'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.082571,51.514753]
+},
+properties: {
+title: 'Mapbox',
+description: 'Violence and sexual offences'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.080728,51.511611]
+},
+properties: {
+title: 'Mapbox',
+description: 'Violence and sexual offences'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.078308,51.518091]
+},
+properties: {
+title: 'Mapbox',
+description: 'Violence and sexual offences'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.079786,51.517576]
+},
+properties: {
+title: 'Mapbox',
+description: 'Violence and sexual offences'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.079786,51.517576]
+},
+properties: {
+title: 'Mapbox',
+description: 'Violence and sexual offences'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.077637,51.511453]
+},
+properties: {
+title: 'Mapbox',
+description: 'Violence and sexual offences'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.080376,51.517244]
+},
+properties: {
+title: 'Mapbox',
+description: 'Violence and sexual offences'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.086278,51.509876]
+},
+properties: {
+title: 'Mapbox',
+description: 'Violence and sexual offences'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.094720,51.514420]
+},
+properties: {
+title: 'Mapbox',
+description: 'Violence and sexual offences'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.082811,51.510054]
+},
+properties: {
+title: 'Mapbox',
+description: 'Violence and sexual offences'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.101073,51.513453]
+},
+properties: {
+title: 'Mapbox',
+description: 'Violence and sexual offences'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.086051,51.513569]
+},
+properties: {
+title: 'Mapbox',
+description: 'Violence and sexual offences'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.088075,51.512388]
+},
+properties: {
+title: 'Mapbox',
+description: 'Violence and sexual offences'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.094464,51.512959]
+},
+properties: {
+title: 'Mapbox',
+description: 'Violence and sexual offences'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.082571,51.514753]
+},
+properties: {
+title: 'Mapbox',
+description: 'Violence and sexual offences'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.081091,51.516014]
+},
+properties: {
+title: 'Mapbox',
+description: 'Violence and sexual offences'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.079875,51.510995]
+},
+properties: {
+title: 'Mapbox',
+description: 'Violence and sexual offences'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.096900,51.510868]
+},
+properties: {
+title: 'Mapbox',
+description: 'Violence and sexual offences'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.079786,51.517576]
+},
+properties: {
+title: 'Mapbox',
+description: 'Violence and sexual offences'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.092296,51.511386]
+},
+properties: {
+title: 'Mapbox',
+description: 'Violence and sexual offences'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.077649,51.512181]
+},
+properties: {
+title: 'Mapbox',
+description: 'Violence and sexual offences'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.093796,51.512391]
+},
+properties: {
+title: 'Mapbox',
+description: 'Violence and sexual offences'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.083993,51.511440]
+},
+properties: {
+title: 'Mapbox',
+description: 'Violence and sexual offences'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.083993,51.511440]
+},
+properties: {
+title: 'Mapbox',
+description: 'Violence and sexual offences'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.094758,51.512829]
+},
+properties: {
+title: 'Mapbox',
+description: 'Violence and sexual offences'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.083506,51.509993]
+},
+properties: {
+title: 'Mapbox',
+description: 'Violence and sexual offences'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.079162,51.514940]
+},
+properties: {
+title: 'Mapbox',
+description: 'Violence and sexual offences'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.097645,51.515142]
+},
+properties: {
+title: 'Mapbox',
+description: 'Violence and sexual offences'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.077578,51.510795]
+},
+properties: {
+title: 'Mapbox',
+description: 'Violence and sexual offences'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.096846,51.511478]
+},
+properties: {
+title: 'Mapbox',
+description: 'Violence and sexual offences'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.086051,51.513569]
+},
+properties: {
+title: 'Mapbox',
+description: 'Violence and sexual offences'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.079786,51.517576]
+},
+properties: {
+title: 'Mapbox',
+description: 'Violence and sexual offences'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.088995,51.512088]
+},
+properties: {
+title: 'Mapbox',
+description: 'Violence and sexual offences'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.077578,51.510795]
+},
+properties: {
+title: 'Mapbox',
+description: 'Violence and sexual offences'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.086051,51.513569]
+},
+properties: {
+title: 'Mapbox',
+description: 'Violence and sexual offences'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.084618,51.512682]
+},
+properties: {
+title: 'Mapbox',
+description: 'Violence and sexual offences'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.094758,51.512829]
+},
+properties: {
+title: 'Mapbox',
+description: 'Violence and sexual offences'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.084566,51.517690]
+},
+properties: {
+title: 'Mapbox',
+description: 'Violence and sexual offences'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.080244,51.511828]
+},
+properties: {
+title: 'Mapbox',
+description: 'Violence and sexual offences'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.077300,51.512607]
+},
+properties: {
+title: 'Mapbox',
+description: 'Violence and sexual offences'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.088552,51.510282]
+},
+properties: {
+title: 'Mapbox',
+description: 'Violence and sexual offences'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.079786,51.517576]
+},
+properties: {
+title: 'Mapbox',
+description: 'Violence and sexual offences'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.088203,51.518262]
+},
+properties: {
+title: 'Mapbox',
+description: 'Violence and sexual offences'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.082571,51.514753]
+},
+properties: {
+title: 'Mapbox',
+description: 'Violence and sexual offences'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.082571,51.514753]
+},
+properties: {
+title: 'Mapbox',
+description: 'Violence and sexual offences'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.084723,51.514986]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other crime'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.084723,51.514986]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other crime'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.083993,51.511440]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other crime'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.087760,51.517149]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other crime'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.082965,51.516351]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other crime'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.088203,51.518262]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other crime'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.102380,51.517728]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.108453,51.515173]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.105157,51.513330]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.105134,51.513869]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.106922,51.514204]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.106922,51.514204]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.099818,51.519017]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.104500,51.511449]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.111132,51.512420]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.104500,51.511449]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.104500,51.511449]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.104500,51.511449]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.110710,51.513914]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.106922,51.514204]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.107910,51.515047]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.107910,51.515047]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.107910,51.515047]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.105134,51.513869]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.106922,51.514204]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.108453,51.515173]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.104281,51.516032]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.104281,51.516032]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.109647,51.514887]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.104973,51.512887]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.105900,51.516966]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.106357,51.512549]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.104500,51.511449]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.104500,51.511449]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.105134,51.513869]
+},
+properties: {
+title: 'Mapbox',
+description: 'Bicycle theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.104281,51.516032]
+},
+properties: {
+title: 'Mapbox',
+description: 'Bicycle theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.105134,51.513869]
+},
+properties: {
+title: 'Mapbox',
+description: 'Bicycle theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.109709,51.517909]
+},
+properties: {
+title: 'Mapbox',
+description: 'Bicycle theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.109709,51.517909]
+},
+properties: {
+title: 'Mapbox',
+description: 'Bicycle theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.100884,51.516966]
+},
+properties: {
+title: 'Mapbox',
+description: 'Bicycle theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.109709,51.517909]
+},
+properties: {
+title: 'Mapbox',
+description: 'Bicycle theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.098148,51.517938]
+},
+properties: {
+title: 'Mapbox',
+description: 'Bicycle theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.100884,51.516966]
+},
+properties: {
+title: 'Mapbox',
+description: 'Bicycle theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.104281,51.516032]
+},
+properties: {
+title: 'Mapbox',
+description: 'Bicycle theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.111181,51.516476]
+},
+properties: {
+title: 'Mapbox',
+description: 'Burglary'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.100884,51.516966]
+},
+properties: {
+title: 'Mapbox',
+description: 'Burglary'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.107147,51.517130]
+},
+properties: {
+title: 'Mapbox',
+description: 'Burglary'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.107147,51.517130]
+},
+properties: {
+title: 'Mapbox',
+description: 'Burglary'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.107147,51.517130]
+},
+properties: {
+title: 'Mapbox',
+description: 'Burglary'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.099818,51.519017]
+},
+properties: {
+title: 'Mapbox',
+description: 'Criminal damage and arson'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.106357,51.512549]
+},
+properties: {
+title: 'Mapbox',
+description: 'Criminal damage and arson'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.100884,51.516966]
+},
+properties: {
+title: 'Mapbox',
+description: 'Criminal damage and arson'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.105134,51.513869]
+},
+properties: {
+title: 'Mapbox',
+description: 'Criminal damage and arson'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.105134,51.513869]
+},
+properties: {
+title: 'Mapbox',
+description: 'Criminal damage and arson'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.104621,51.512692]
+},
+properties: {
+title: 'Mapbox',
+description: 'Criminal damage and arson'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.105134,51.513869]
+},
+properties: {
+title: 'Mapbox',
+description: 'Criminal damage and arson'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.099848,51.519350]
+},
+properties: {
+title: 'Mapbox',
+description: 'Criminal damage and arson'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.104909,51.517912]
+},
+properties: {
+title: 'Mapbox',
+description: 'Drugs'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.098148,51.517938]
+},
+properties: {
+title: 'Mapbox',
+description: 'Drugs'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.104909,51.517912]
+},
+properties: {
+title: 'Mapbox',
+description: 'Drugs'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.105134,51.513869]
+},
+properties: {
+title: 'Mapbox',
+description: 'Drugs'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.102502,51.516165]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.108283,51.517526]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.101345,51.518709]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.099818,51.519017]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.105134,51.513869]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.108231,51.513928]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.109647,51.514887]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.105134,51.513869]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.101963,51.519097]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.107148,51.511879]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.100884,51.516966]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.104252,51.516733]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.110710,51.513914]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.108164,51.516571]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.100884,51.516966]
+},
+properties: {
+title: 'Mapbox',
+description: 'Public order'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.108283,51.517526]
+},
+properties: {
+title: 'Mapbox',
+description: 'Public order'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.112939,51.518231]
+},
+properties: {
+title: 'Mapbox',
+description: 'Public order'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.105134,51.513869]
+},
+properties: {
+title: 'Mapbox',
+description: 'Robbery'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.105134,51.513869]
+},
+properties: {
+title: 'Mapbox',
+description: 'Shoplifting'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.112939,51.518231]
+},
+properties: {
+title: 'Mapbox',
+description: 'Shoplifting'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.108231,51.513928]
+},
+properties: {
+title: 'Mapbox',
+description: 'Shoplifting'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.109647,51.514887]
+},
+properties: {
+title: 'Mapbox',
+description: 'Shoplifting'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.103280,51.514109]
+},
+properties: {
+title: 'Mapbox',
+description: 'Shoplifting'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.109155,51.516668]
+},
+properties: {
+title: 'Mapbox',
+description: 'Shoplifting'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.109155,51.516668]
+},
+properties: {
+title: 'Mapbox',
+description: 'Shoplifting'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.108283,51.517526]
+},
+properties: {
+title: 'Mapbox',
+description: 'Theft from the person'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.104281,51.516032]
+},
+properties: {
+title: 'Mapbox',
+description: 'Theft from the person'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.108283,51.517526]
+},
+properties: {
+title: 'Mapbox',
+description: 'Theft from the person'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.109709,51.517909]
+},
+properties: {
+title: 'Mapbox',
+description: 'Theft from the person'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.102502,51.516165]
+},
+properties: {
+title: 'Mapbox',
+description: 'Theft from the person'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.098148,51.517938]
+},
+properties: {
+title: 'Mapbox',
+description: 'Theft from the person'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.112939,51.518231]
+},
+properties: {
+title: 'Mapbox',
+description: 'Theft from the person'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.105134,51.513869]
+},
+properties: {
+title: 'Mapbox',
+description: 'Theft from the person'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.105134,51.513869]
+},
+properties: {
+title: 'Mapbox',
+description: 'Theft from the person'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.101345,51.518709]
+},
+properties: {
+title: 'Mapbox',
+description: 'Theft from the person'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.100884,51.516966]
+},
+properties: {
+title: 'Mapbox',
+description: 'Vehicle crime'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.100884,51.516966]
+},
+properties: {
+title: 'Mapbox',
+description: 'Vehicle crime'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.107148,51.511879]
+},
+properties: {
+title: 'Mapbox',
+description: 'Vehicle crime'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.104973,51.512887]
+},
+properties: {
+title: 'Mapbox',
+description: 'Vehicle crime'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.110735,51.517836]
+},
+properties: {
+title: 'Mapbox',
+description: 'Violence and sexual offences'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.111242,51.516738]
+},
+properties: {
+title: 'Mapbox',
+description: 'Violence and sexual offences'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.112939,51.518231]
+},
+properties: {
+title: 'Mapbox',
+description: 'Violence and sexual offences'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.107148,51.511879]
+},
+properties: {
+title: 'Mapbox',
+description: 'Violence and sexual offences'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.107148,51.511879]
+},
+properties: {
+title: 'Mapbox',
+description: 'Violence and sexual offences'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.100884,51.516966]
+},
+properties: {
+title: 'Mapbox',
+description: 'Violence and sexual offences'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.104621,51.512692]
+},
+properties: {
+title: 'Mapbox',
+description: 'Violence and sexual offences'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.099818,51.519017]
+},
+properties: {
+title: 'Mapbox',
+description: 'Violence and sexual offences'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.104621,51.512692]
+},
+properties: {
+title: 'Mapbox',
+description: 'Violence and sexual offences'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.102812,51.517042]
+},
+properties: {
+title: 'Mapbox',
+description: 'Violence and sexual offences'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.099818,51.519017]
+},
+properties: {
+title: 'Mapbox',
+description: 'Violence and sexual offences'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.105134,51.513869]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other crime'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.106214,51.513905]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other crime'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.097210,51.523156]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.097210,51.523156]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.097210,51.523156]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.098138,51.520609]
+},
+properties: {
+title: 'Mapbox',
+description: 'Shoplifting'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.089858,51.520744]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.086655,51.519783]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.086655,51.519783]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.086655,51.519783]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.086655,51.519783]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.086655,51.519783]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.086655,51.519783]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.091732,51.521080]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.091732,51.521080]
+},
+properties: {
+title: 'Mapbox',
+description: 'Other theft'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.087084,51.519530]
+},
+properties: {
+title: 'Mapbox',
+description: 'Theft from the person'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.091732,51.521080]
+},
+properties: {
+title: 'Mapbox',
+description: 'Theft from the person'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.091732,51.521080]
+},
+properties: {
+title: 'Mapbox',
+description: 'Theft from the person'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.079080,51.519615]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.079080,51.519615]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.079080,51.519615]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.079080,51.519615]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.079080,51.519615]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.079080,51.519615]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.079080,51.519615]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.079080,51.519615]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.079080,51.519615]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.079080,51.519615]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.079080,51.519615]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.079080,51.519615]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.079080,51.519615]
+},
+properties: {
+title: 'Mapbox',
+description: 'Drugs'
+}
+},{type: 'Feature',
+geometry: {
+type:'Point',
+coordinates:[-0.111974,51.513683]
+},
+properties: {
+title: 'Mapbox',
+description: 'Anti-social behaviour'
+}
+},]}
