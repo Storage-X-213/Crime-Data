@@ -89,6 +89,22 @@
 		zoom: 13,
 		dragRotate: false,
 	});
+	map.on('style.load', function() {
+		map.addSource("crimeData", {
+			type: "geojson",
+			data: "https://github.com/Storage-X-213/Storage-X-213.github.io/blob/master/2016-07/2016-07-suffolk-street.json"
+		});
+	  // one layer per GeoJSON feature type, see http://stackoverflow.com/a/36927026
+		map.addLayer({
+			"id": "sample-line",
+			"type": "circle",
+			"source": "crimeData",
+			"filter": ["==", "$type", "LineString"],
+			"paint": {
+				"line-color": "white"
+			}
+		});
+	});/*
 		function init(){
             map.addSource('crimeData', {
             type: 'geojson',
@@ -99,7 +115,7 @@
             'type': 'circle',
             'source': 'crimeData',});
 		}
-		 
+		 */
        
 		
 		
