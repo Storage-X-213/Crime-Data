@@ -1,0 +1,4 @@
+	body{background-color:rgb(131, 177, 252);}
+	#map{width: 500px; height: 500px; position: absolute; top:0; bottom: 0; left: 0; right: 0; margin: auto;}
+	.marker { background-image: url('mapbox-icon.png'); background-size: cover; width: 50px; height: 50px; border-radius: 50%; cursor: pointer;}
+	.ui-datepicker-calendar {display: none;}
