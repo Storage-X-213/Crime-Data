@@ -1,1 +1,1 @@
-{"type":"FeatureCollection","features":[{"type":"Feature","properties":{"title":"Mapbox","description":"Anti-social behaviour"},"geometry":{"type":"Point","coordinates":[0.912069,52.143253]"}}]}
+{"type":"FeatureCollection","features":[{"type":"Feature","properties":{"dbh":5},"geometry":{"type":"Point","coordinates":[0.912069,52.143253]}}]}
