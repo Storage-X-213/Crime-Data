@@ -9,8 +9,8 @@
 	<script src='https://api.mapbox.com/mapbox-gl-js/v1.2.0/mapbox-gl.js'></script>
 	<link href='https://api.mapbox.com/mapbox-gl-js/v1.2.0/mapbox-gl.css' rel='stylesheet' />
 	<script src="jquery-3.4.1.min.js"></script>
-	<!--<link rel="stylesheet" type="text/css" href="styleSheet.css">-->
-	<link rel="stylesheet" type="text/css" href="styleSheetOld.css">
+	<link rel="stylesheet" type="text/css" href="styleSheet.css">-->
+	<!--<link rel="stylesheet" type="text/css" href="styleSheetOld.css">-->
     <script src="jquery-ui.min.js"></script>
     <link rel="stylesheet" type="text/css" media="screen" href="jquery-ui.css"
 	<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
@@ -28,33 +28,7 @@
 
 	var month = ""
 	var year = ""
-	/*
-	var geojson = {
-				type: 'FeatureCollection',
-				features: [{
-					type: 'Feature',
-					geometry: {
-						type: 'Point',
-						coordinates: [1.15, 52.0581]
-					},
-					properties: {
-						title: 'Mapbox',
-						description: 'Washington, D.C.'
-					}
-				},
-				{
-					type: 'Feature',
-					geometry: {
-						type: 'Point',
-						coordinates: [-122.414, 37.776]
-					},
-					properties: {
-						title: 'Mapbox',
-						description: 'San Francisco, California'
-					}
-				}]
-			};
-	*/
+		
 	<!-- Code for the setup of the "month picker" -->
 	$(document).ready(function()
 	{   
@@ -103,7 +77,6 @@
 			type: "geojson",
 			/*data: "https://cors-anywhere.herokuapp.com/https://github.com/Storage-X-213/Storage-X-213.github.io/blob/master/2016-07/2016-07-suffolk-street.geojson"*/
 			data: "https://cors-anywhere.herokuapp.com/https://github.com/Storage-X-213/Storage-X-213.github.io/blob/master/TestData/TestData.geojson",
-			buffer: 0
 			
 		});
 		map.addLayer({
