@@ -4,11 +4,11 @@
 </header>
 <head>
 	<!-- Code for the set up of the Mapbox API -->
-	<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+	<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no'>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-	<script src='https://api.mapbox.com/mapbox-gl-js/v0.54.0/mapbox-gl.js'></script>
+	<script src='https://api.mapbox.com/mapbox-gl-js/v1.2.0/mapbox-gl.js'></script>
+	<link href='https://api.mapbox.com/mapbox-gl-js/v1.2.0/mapbox-gl.css' rel='stylesheet' />
 	<script src="jquery-3.4.1.min.js"></script>
-	<link href='https://api.mapbox.com/mapbox-gl-js/v0.54.0/mapbox-gl.css' rel='stylesheet' />
 	<!--<link rel="stylesheet" type="text/css" href="styleSheet.css">-->
 	<link rel="stylesheet" type="text/css" href="styleSheetOld.css">
     <script src="jquery-ui.min.js"></script>
@@ -94,6 +94,7 @@
 		center: [1.1482,52.0567],
 		minZoom: 12,
 		zoom: 13,
+		
 		dragRotate: false,
 	});
 	
@@ -101,7 +102,8 @@
 		map.addSource("crimeData", {
 			type: "geojson",
 			/*data: "https://cors-anywhere.herokuapp.com/https://github.com/Storage-X-213/Storage-X-213.github.io/blob/master/2016-07/2016-07-suffolk-street.geojson"*/
-			data: "https://cors-anywhere.herokuapp.com/https://github.com/Storage-X-213/Storage-X-213.github.io/blob/master/TestData/TestData.geojson"
+			data: "https://cors-anywhere.herokuapp.com/https://github.com/Storage-X-213/Storage-X-213.github.io/blob/master/TestData/TestData.geojson",
+			buffer: 0
 			
 		});
 		map.addLayer({
