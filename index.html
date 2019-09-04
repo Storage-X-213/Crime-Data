@@ -1,7 +1,5 @@
 <!DOCTYPE html>
 <html>
-<header>
-</header>
 <head>
 	<!-- Code for the set up of the Mapbox API -->
 	<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no'>
@@ -9,10 +7,10 @@
 	<script src='https://api.mapbox.com/mapbox-gl-js/v1.2.0/mapbox-gl.js'></script>
 	<link href='https://api.mapbox.com/mapbox-gl-js/v1.2.0/mapbox-gl.css' rel='stylesheet' />
 	<script src="jquery-3.4.1.min.js"></script>
-	<link rel="stylesheet" type="text/css" href="styleSheet.css">-->
-	<!--<link rel="stylesheet" type="text/css" href="styleSheetOld.css">-->
+	<link rel="stylesheet" type="text/css" href="styleSheet.css"/>
+	<!--<link rel="stylesheet" type="text/css" href="styleSheetOld.css"/>-->
     <script src="jquery-ui.min.js"></script>
-    <link rel="stylesheet" type="text/css" media="screen" href="jquery-ui.css"
+    <link rel="stylesheet" type="text/css" media="screen" href="jquery-ui.css">
 	<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
 	<meta charset="UTF-8">
 </head>	
@@ -23,15 +21,34 @@
 	<input type="text" id="month" name="month" class="monthPicker" />
 	
 	<div id='map'></div>
-	<div id='monthSelector'></div>
+	<div id='month'></div>
 	<script>
 
-	var month = ""
-	var year = ""
-		
+	var month = "";
+	var year = "";
+	var dataUrl="H:\Downloads\Storage-X-213.github.io-master\Storage-X-213.github.io-master\2016-07\2016-07-suffolk-street.geojson";
+	/*Code for the set up of the Mapbox API */
+	mapboxgl.accessToken = 'pk.eyJ1IjoibGVzcCIsImEiOiJjanZwMG8yMmsxYzZxNDRxczQxNTFqd201In0.cpQU3urRQRrO_tJAv27QJg';
+	var map = new mapboxgl.Map({
+		container: 'map',
+		style: 'mapbox://styles/mapbox/streets-v11',	
+		center: [1.1482,52.0567],
+		minZoom: 12,
+		zoom: 13,
+		dragRotate: false,
+	});
 	<!-- Code for the setup of the "month picker" -->
 	$(document).ready(function()
-	{   
+	{   $.ajax({
+				url : dataUrl,
+				dataType: "text",
+				success : function (result) {
+					console.log(result);
+				}
+			});
+		
+	
+
 		$(".monthPicker").datepicker({
 			
 			maxDate: "0",
@@ -44,8 +61,7 @@
 				month = $("#ui-datepicker-div .ui-datepicker-month :selected").val();
 				year = $("#ui-datepicker-div .ui-datepicker-year :selected").val();
 				$(this).val($.datepicker.formatDate('MM yy', new Date(year, month, 1)));
-				init();
-				
+
 				var monthInt=parseInt(month,10);
 			}
 
@@ -60,23 +76,13 @@
 			});
 		});
 	});
-	/*Code for the set up of the Mapbox API */
-		mapboxgl.accessToken = 'pk.eyJ1IjoibGVzcCIsImEiOiJjanZwMG8yMmsxYzZxNDRxczQxNTFqd201In0.cpQU3urRQRrO_tJAv27QJg';
-		var map = new mapboxgl.Map({
-		container: 'map',
-		style: 'mapbox://styles/mapbox/streets-v11',	
-		center: [1.1482,52.0567],
-		minZoom: 12,
-		zoom: 13,
-		
-		dragRotate: false,
-	});
+	
 	
 	map.on('style.load', function() {
 		map.addSource("crimeData", {
 			type: "geojson",
-			/*data: "https://cors-anywhere.herokuapp.com/https://github.com/Storage-X-213/Storage-X-213.github.io/blob/master/2016-07/2016-07-suffolk-street.geojson"*/
-			data: "https://cors-anywhere.herokuapp.com/https://github.com/Storage-X-213/Storage-X-213.github.io/blob/master/TestData/TestData.json"
+			
+			data: dataUrl
 			
 		});
 		map.addLayer({
