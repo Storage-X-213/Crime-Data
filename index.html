@@ -14,6 +14,7 @@
 	<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
 	<meta charset="UTF-8">
 </head>	
+
 <body>
 
 
@@ -26,20 +27,25 @@
 
 	var month = "";
 	var year = "";
-	var dataUrl="H:\Downloads\Storage-X-213.github.io-master\Storage-X-213.github.io-master\2016-07\2016-07-suffolk-street.geojson";
+	var dataUrl="https://raw.githubusercontent.com/Storage-X-213/Storage-X-213.github.io/master/2016-07/2016-07-suffolk-street.geojson"
 	/*Code for the set up of the Mapbox API */
-	mapboxgl.accessToken = 'pk.eyJ1IjoibGVzcCIsImEiOiJjanZwMG8yMmsxYzZxNDRxczQxNTFqd201In0.cpQU3urRQRrO_tJAv27QJg';
+	mapboxgl.accessToken = "pk.eyJ1IjoibGVzcCIsImEiOiJjazA4NDNha3kwMWphM29wY2RkbnluZHJzIn0.dFz1M9lx7My6TbmDBJy6qA";
 	var map = new mapboxgl.Map({
 		container: 'map',
 		style: 'mapbox://styles/mapbox/streets-v11',	
 		center: [1.1482,52.0567],
-		minZoom: 12,
+		minZoom: 10,
 		zoom: 13,
 		dragRotate: false,
+		
+	
 	});
 	/*Code for the setup of the "month picker"*/
 	$(document).ready(function()
-	{   
+	{  
+		
+	
+
 		$(".monthPicker").datepicker({
 			
 			maxDate: "0",
@@ -95,25 +101,7 @@
             'source': 'crimeData',});
 		};
 		*/
-       
-		
-		
-		/*
-		geojson.features.forEach(function(marker) {
-		
-			// create a HTML element for each feature
-			//var el = document.createElement('div');
-				el.className = 'marker';
-
-			// make a marker for each feature and add to the map
-			new mapboxgl.Marker(el)
-				.setLngLat(marker.geometry.coordinates)
-				.setPopup(new mapboxgl.Popup({ offset: 25 }) // add popups
-					.setHTML('<h3>' + marker.properties.title + '</h3><p>' + marker.properties.description + '</p>'))
-				.addTo(map);
-		});
-		*/
-		/*
+      
 		var monthInt=parseInt(month,10);
 		
 		document.write(monthInt);
