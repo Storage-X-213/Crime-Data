@@ -1,4 +1,8 @@
-#map {
+ body {
+   background-color: rgb(131, 177, 252);
+ }
+
+ #map {
    width: 600px;
    height: 600px;
    position: absolute;
@@ -8,38 +12,9 @@
    right: 0;
    margin: auto;
  }
- .dropbtn {
-  background-color: white;
-  color: rgb(131, 177, 252);
-  padding: 4px;
-  font-size: 13px;
-  border: none;
-  cursor: pointer;
+
+
+.mapboxgl-popup {
+max-width: 400px;
+font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
 }
-
-
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-content {
-
-  display: none;
-  position: absolute;
-  background-color: white;
-  min-width: 160px;
-  overflow: auto;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  color: rgb(131, 177, 252);
-  padding: 2px 16px;
-  font-size: 12px;
-  text-decoration: none;
-  display: block;
-}
-
-.show {display: block;}
