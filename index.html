@@ -7,6 +7,7 @@
 	<script src='https://api.mapbox.com/mapbox-gl-js/v1.2.0/mapbox-gl.js'></script>
 	<link href='https://api.mapbox.com/mapbox-gl-js/v1.2.0/mapbox-gl.css' rel='stylesheet' />
 	<script src="jquery-3.4.1.min.js"></script>
+	<script src="https://raw.githubusercontent.com/Storage-X-213/Storage-X-213.github.io/master/jquery-3.4.1.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="styleSheet.css"/>
 	<!--<link rel="stylesheet" type="text/css" href="styleSheetOld.css"/>-->
     <script src="jquery-ui.min.js"></script>
@@ -17,21 +18,21 @@
 
 <body>
 
-
+	<div id="meh">
 	<label for="month">Month: </label>
 	<input type="text" id="month" name="month" class="monthPicker" />
-
+	</div>
+	<div id ="constabSelector">
 	<select id="constabulary">
 			  <option value="">Constabulary</option>
 			  <option value="suffolk-street">Suffolk</option>
 			  <option value="3">test3</option>
 	</select>
-
+	</div>
 	<div id='map'></div>
 	<!--<div id='ui-datepicker-div'></div>-->
 	<script>
-	var e = document.getElementById("constabulary");
-	var strUser = e.options[e.selectedIndex].value;
+	
 	var month = "";
 	var year = "";
 	var dataUrl="https://raw.githubusercontent.com/Storage-X-213/Storage-X-213.github.io/master/2016-07/2016-07-suffolk-street.geojson"
@@ -51,19 +52,25 @@
 	{  
 		$(".monthPicker").datepicker({
 			
-			maxDate: "0",
+			maxDate: new Date(2019,5,1),
 			minDate: new Date(2016, 6, 1),
 			changeMonth: true,	
 			changeYear: true,
 			showButtonPanel: true,
 
-			onClose: function(dateText, inst) {
+			onClose: function(dateText, inst, strUser) {
 				month = $("#ui-datepicker-div .ui-datepicker-month :selected").val();
 				year = $("#ui-datepicker-div .ui-datepicker-year :selected").val();
 				$(this).val($.datepicker.formatDate('MM yy', new Date(year, month, 1)));
-				var monthInt=parseInt(month,10);
-				
-				dataUrl = "https://raw.githubusercontent.com/Storage-X-213/Storage-X-213.github.io/master/"+year+"-"+monthInt+"/"+year+"-"+monthInt+"-"+strUser+".geojson";
+				month=parseInt(month,10)+1;
+				if (month.length=1){month="0"+month;}
+				var e = document.getElementById("constabulary");
+				var strUser = e.options[e.selectedIndex].value;
+				dataUrl = "https://raw.githubusercontent.com/Storage-X-213/Storage-X-213.github.io/master/"+year+"-"+month+"/"+year+"-"+month+"-"+strUser+".geojson";
+				map.removeLayer("crimePoints");
+				map.removeLayer("cluster-count");
+				map.removeSource("crimeData");
+				init();
 				
 			}
 		});
@@ -80,7 +87,11 @@
 	
 	
 	map.on('style.load', function() {
-		map.addSource("crimeData", {
+		init();
+	});
+		
+	function init(){
+       map.addSource("crimeData", {
 			type: "geojson",
 			data: dataUrl,
 			cluster: true,
@@ -159,17 +170,6 @@
 		map.on('mouseleave', 'places', function () {
 			map.getCanvas().style.cursor = '';
 		});
-	});
-		
-	function init(){
-        map.addSource('crimeData', {
-        type: 'geojson',
-        data: dataUrl,
-		});
-		map.addLayer({            
-		'id': 'crimePoints',
-        'type': 'circle',
-        'source': 'crimeData',});
 	};
 
 	</script>
