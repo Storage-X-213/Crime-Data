@@ -14,6 +14,8 @@
     <link rel="stylesheet" type="text/css" media="screen" href="jquery-ui.css">
 	<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
 	<meta charset="UTF-8">
+	<script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.0.2/mapbox-gl-directions.js'></script>
+	<link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.0.2/mapbox-gl-directions.css' type='text/css' />
 </head>	
 
 <body>
@@ -74,13 +76,13 @@
 			  
 	</select>
 	</div>
-	<input id="reloader" type="button" value="Reload"/>
+	<input id="reloader" type="button" value="Clustered Points"/>
 	<input id="heatmapper" type="button" value="Heatmap"/>
 	<div id='map'></div>
 	<!--<div id='ui-datepicker-div'></div>-->
 	<script>                           
 	var month = "";
-	var year = "";
+	var year = "";	
 	var dataUrl="https://raw.githubusercontent.com/Storage-X-213/Storage-X-213.github.io/master/2016-07/2016-07-suffolk-street.geojson"
 	/*Code for the set up of the Mapbox API */
 	mapboxgl.accessToken = "pk.eyJ1IjoibGVzcCIsImEiOiJjazA4NDNha3kwMWphM29wY2RkbnluZHJzIn0.dFz1M9lx7My6TbmDBJy6qA";
@@ -92,7 +94,16 @@
 		maxZoom: 17,
 		zoom: 13,
 		dragRotate: false,	
-	});
+	});/*
+	map.addControl(new MapboxDirections({
+		accessToken: mapboxgl.accessToken
+	}), 'top-left');*/
+	map.addControl(new mapboxgl.GeolocateControl({
+		positionOptions: {
+		enableHighAccuracy: true
+		},
+		trackUserLocation: true
+		}));
 	/*Code for the setup of the "month picker"*/
 	$(document).ready(function()
 	{  
@@ -155,16 +166,12 @@
 	function heatmap(strUser) {
 		month = $("#ui-datepicker-div .ui-datepicker-month :selected").val();
 		year = $("#ui-datepicker-div .ui-datepicker-year :selected").val();
-				month=parseInt(month,10)+1;
+		month=parseInt(month,10)+1;
 		monthString=month.toString();
 		if (monthString.length==1){monthString="0"+monthString;};
 		var e = document.getElementById("constabulary");
 		var strUser = e.options[e.selectedIndex].value;
 		dataUrl = "https://raw.githubusercontent.com/Storage-X-213/Storage-X-213.github.io/master/"+year+"-"+monthString+"/"+year+"-"+monthString+"-"+strUser+"-street.geojson";
-
-		if (month.length = 1) {
-			month = "0" + month;
-		}
 		if (map.getLayer("crimePoints")) {
 			map.removeLayer("crimePoints")
 		}
@@ -177,54 +184,36 @@
 		map.addSource("crimeData", {
 			type: "geojson",
 			data: dataUrl,
+			cluster: true,
+			clusterMaxZoom: 17, // Max zoom to cluster points on
+			clusterRadius: 30 // Radius of each cluster when clustering points
+			
 		});
-		map.on('load', function() {
-		map.addLayer({
-		  "id": "crimeHeat",
-		  "type": "heatmap",
-		  "source": "crimeData",
-		  "paint": {
-			// Increase the heatmap intesity by zoom level
-			// heatmap-intensity is a multiplier on top of heatmap-weight
-			"heatmap-weight": [
-			"interpolate",
-			["linear"],
-			["zoom"],
-			0, 0,
-			6, 1
-			],
-			"heatmap-intensity": [
-			  "interpolate",
-			  ["linear"],
-			  ["zoom"],
-			  0, 1,
-			  18, 5
-			],
-			// Color ramp for heatmap.  Domain is 0 (low) to 1 (high).
-			// Begin color ramp at 0-stop with a 0-transparancy color
-			// to create a blur-like effect.
-			"heatmap-color": [
-			  "interpolate",
-			  ["linear"],
-			  ["heatmap-density"],
-			  0, "rgba(33,102,172,0)",
-			  0.2, "rgb(103,169,207)",
-			  0.4, "rgb(209,229,240)",
-			  0.6, "rgb(253,219,199)",
-			  0.8, "rgb(239,138,98)",
-			  1, "rgb(178,24,43)"
-			],
-			// Adjust the heatmap radius by zoom level
-			"heatmap-radius": [
-			  "interpolate",
-			  ["linear"],
-			  ["zoom"],
-			  0, 50,
-			  20, 200
-			],
-		  }
-		}, 'waterway-label');
-	  });
+			map.addLayer({
+			"id": "crimePoints",
+			"type": "circle",
+			"source": "crimeData",
+			'paint': {
+					//   * Green, 20px circles when point count is less than 50
+					//   * Yellow, 30px circles when point count is between 50 and 300
+					//   * Red, 40px circles when point count is between 300 and 1000
+					//   * Dark Red, 50px circles when point count above 1000
+					"circle-color": [
+						"interpolate",
+						["linear"],
+						["get", "point_count"],
+						-50, "rgba(0, 255, 0,0.5)",
+						250, "rgba(255, 0, 0,1)"
+					],
+					"circle-radius": [
+						"interpolate",
+						["linear"],
+						["get", "point_count"],
+							20,30,
+							1000,100
+					]
+				}
+			});
 	};
 	function init(){
 	
@@ -232,10 +221,11 @@
 			type: "geojson",
 			data: dataUrl,
 			cluster: true,
-			clusterMaxZoom: 2000, // Max zoom to cluster points on
+			clusterMaxZoom: 17, // Max zoom to cluster points on
 			clusterRadius: 50 // Radius of each cluster when clustering points (defaults to 50)
 			
 		});
+		
 		map.addLayer({
 			"id": "crimePoints",
 			"type": "circle",
@@ -256,6 +246,7 @@
 					1000,
 					"#C40000"
 				],
+				
 				"circle-radius": [
 					"step",
 					["get", "point_count"],
@@ -283,27 +274,35 @@
 		});
 		
 		map.on('click','crimePoints', function (e) {
-
+			
 			var features = map.queryRenderedFeatures(e.point, { layers: ['crimePoints'] });
-			var clusterId = features[0].properties.cluster_id,
-			point_count = features[0].properties.point_count,
-			clusterSource = map.getSource('crimeData');
-
-		  // Get all points under a cluster
-			clusterSource.getClusterLeaves(clusterId, point_count, 0, function(err, aFeatures){
-				var coordinates = aFeatures[0].geometry.coordinates.slice();
-				var points= aFeatures;
-				console.log(points);
-				var i = 0;
-				var description = "Crime(s) found are: ";
-				while(i<point_count-1){var description = description + points[i].properties.description+", "; i++;};
+			var clusterId = features[0].properties.cluster_id;
+			var point_count = features[0].properties.point_count;
+			var clusterSource = map.getSource('crimeData');
+			console.log(point_count);
+		  // If a point is a cluster	
+			if(point_count>1){
+				clusterSource.getClusterLeaves(clusterId, point_count, 0, function(err, aFeatures){
+					var coordinates = aFeatures[0].geometry.coordinates.slice();
+					var points= aFeatures;
+					var i = 0;
+					var description = "Crimes found are: ";
+					while(i<point_count-1){var description = description + points[i].properties.description+", "; i++;};
+					new mapboxgl.Popup()
+						.setLngLat(coordinates)
+						.setHTML(description)
+						.addTo(map);
+				})					
+			}else{
+				var coordinates = e.features[0].geometry.coordinates.slice();
+				var description = e.features[0].properties.description;
 				new mapboxgl.Popup()
 					.setLngLat(coordinates)
 					.setHTML(description)
-					.addTo(map);
-			});
+					.addTo(map);	
+			};
 
-		});	/*
+		});/*	
 		map.on('click', 'crimePoints', function (e) {
 			var coordinates = e.features[0].geometry.coordinates.slice();
 			var description = e.features[0].properties.description;
@@ -313,7 +312,7 @@
 			.setLngLat(coordinates)
 			.setHTML(description)
 			.addTo(map);
-		});
+		});*/
 		// Change the cursor to a pointer when the mouse is over the places layer.
 		map.on('mouseenter', 'places', function () {
 			map.getCanvas().style.cursor = 'pointer';
@@ -322,7 +321,7 @@
 		// Change it back to a pointer when it leaves.
 		map.on('mouseleave', 'places', function () {
 			map.getCanvas().style.cursor = '';
-		});*/
+		});
 	};
 	</script>
 	
