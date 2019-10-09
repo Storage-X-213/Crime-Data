@@ -172,6 +172,18 @@
 		var e = document.getElementById("constabulary");
 		var strUser = e.options[e.selectedIndex].value;
 		dataUrl = "https://raw.githubusercontent.com/Storage-X-213/Storage-X-213.github.io/master/"+year+"-"+monthString+"/"+year+"-"+monthString+"-"+strUser+"-street.geojson";
+		londonUrl= "https://raw.githubusercontent.com/Storage-X-213/Storage-X-213.github.io/master/"+year+"-"+monthString+"/"+year+"-"+monthString+"-metropolitan-street.geojson";
+		$.getJSON(dataUrl)
+		.done(function(response) {
+			console.log(response.features.length);
+			var crimeCount=response.features.length;
+			$.getJSON(londonUrl)
+			.done(function(response) {
+				console.log(response.features.length);
+				var londonCount=response.features.length;
+				console.log((londonCount/crimeCount))
+		})
+		})
 		if (map.getLayer("crimePoints")) {
 			map.removeLayer("crimePoints")
 		}
