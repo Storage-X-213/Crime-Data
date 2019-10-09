@@ -6,6 +6,7 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 	<script src='https://api.mapbox.com/mapbox-gl-js/v1.2.0/mapbox-gl.js'></script>
 	<link href='https://api.mapbox.com/mapbox-gl-js/v1.2.0/mapbox-gl.css' rel='stylesheet' />
+	<!--<script src="jquery-3.4.1.min.js"></script>-->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="styleSheet.css"/>
 	<!--<link rel="stylesheet" type="text/css" href="styleSheetOld.css"/>-->
@@ -90,7 +91,7 @@
 		style: 'mapbox://styles/mapbox/streets-v11',	
 		center: [1.1482,52.0567],
 		minZoom: 10,
-		maxZoom: 17,
+		maxZoom: 16,
 		zoom: 13,
 		dragRotate: false,	
 	});/*
@@ -185,34 +186,49 @@
 			data: dataUrl,
 			cluster: true,
 			clusterMaxZoom: 17, // Max zoom to cluster points on
-			clusterRadius: 30 // Radius of each cluster when clustering points
+			clusterRadius: 1 // Radius of each cluster when clustering points (defaults to 50)	
 			
 		});
-			map.addLayer({
-			"id": "crimePoints",
-			"type": "circle",
-			"source": "crimeData",
-			'paint': {
-					//   * Green, 20px circles when point count is less than 50
-					//   * Yellow, 30px circles when point count is between 50 and 300
-					//   * Red, 40px circles when point count is between 300 and 1000
-					//   * Dark Red, 50px circles when point count above 1000
-					"circle-color": [
-						"interpolate",
-						["linear"],
-						["get", "point_count"],
-						-50, "rgba(0, 255, 0,0.5)",
-						250, "rgba(255, 0, 0,1)"
-					],
-					"circle-radius": [
-						"interpolate",
-						["linear"],
-						["get", "point_count"],
-							20,30,
-							1000,100
-					]
-				}
-			});
+		map.addLayer({
+		"id": "crimePoints",
+		"type": "heatmap",
+		"source": "crimeData",
+		'paint': {
+			"heatmap-weight": [
+				"interpolate",
+				["linear"],
+				["get", "point_count"],
+					0, 0,
+					1000, 1
+			],
+			"heatmap-color": [
+				"interpolate",
+				["linear"],
+				["heatmap-density"],
+					0, "rgba(33,102,172,0)",
+					0.2, "rgb(103,169,207)",
+					0.4, "rgb(209,229,240)",
+					0.6, "rgb(253,219,199)",
+					0.8, "rgb(239,138,98)",
+					1, "rgb(178,24,43)"
+			],
+			"heatmap-radius": [
+				"interpolate",
+				["linear"],
+				["zoom"],
+					10, 10,
+					16, 40
+					
+			],
+			"heatmap-intensity": [	
+				"interpolate",
+				["linear"],
+				["zoom"],
+					10, 1,
+					16, 3
+			],
+			}
+		});
 	};
 	function init(){
 	
@@ -301,17 +317,7 @@
 					.addTo(map);	
 			};
 
-		});/*	
-		map.on('click', 'crimePoints', function (e) {
-			var coordinates = e.features[0].geometry.coordinates.slice();
-			var description = e.features[0].properties.description;
-			
-			 
-			new mapboxgl.Popup()
-			.setLngLat(coordinates)
-			.setHTML(description)
-			.addTo(map);
-		});*/
+		});	
 		// Change the cursor to a pointer when the mouse is over the places layer.
 		map.on('mouseenter', 'places', function () {
 			map.getCanvas().style.cursor = 'pointer';
