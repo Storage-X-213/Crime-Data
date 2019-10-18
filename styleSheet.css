@@ -1,20 +1,39 @@
  body {
-   background-color: rgb(131, 177, 252);
+	background-color: rgb(131, 177, 252);
  }
 
  #map {
-   width: 600px;
-   height: 600px;
-   position: absolute;
-   top: 0;
-   bottom: 0;
-   left: 0;
-   right: 0;
-   margin: auto;
+	width: 75%;
+	height: 75%;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
  }
-
+#meh{
+	font-family: "Courier New", Courier, monospace;
+	display: block;
+	Float:RIGHT;
+}
+#month{
+	font-family: "Courier New", Courier, monospace;
+}
 
 .mapboxgl-popup {
-max-width: 400px;
-font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+	max-width: 400px;
+	font-family: 12px/20px "Courier New", Courier, monospace;
+}
+#constabulary{
+	font-family: "Courier New", Courier, monospace;
+}
+#reloader{
+	margin-top: 1px;
+}
+#analysis{
+	width:75%;
+	height:25%;
+	bottom:0;
+	background-color:gray;
 }
