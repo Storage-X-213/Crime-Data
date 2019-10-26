@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <!-- Code for the set up of the Mapbox API -->
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no'>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <script src='https://api.mapbox.com/mapbox-gl-js/v1.2.0/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v1.2.0/mapbox-gl.css' rel='stylesheet' />
+    <!--<script src="jquery-3.4.1.min.js"></script>-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="styleSheet.css" />
+    <!--<link rel="stylesheet" type="text/css" href="styleSheetOld.css"/>-->
+    <script src="jquery-ui.min.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="jquery-ui.css">
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <meta charset="UTF-8">
+    <script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.0.2/mapbox-gl-directions.js'></script>
+    <link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.0.2/mapbox-gl-directions.css' type='text/css' />
+  </head>
+
+  <body>
+	<div id="analysis">
+	</div>
+    <div id="meh">
+      <input type="text" id="month" name="month" class="monthPicker" placeholder="Month-Year"/>
+      <select id="constabulary">
+        <option value="" disabled selected>Constabulary</option>
+        <option value="avon-and-somerset">Avon and Somerset</option>
+        <option value="bedfordshire">Bedfordshire</option>
+        <option value="btp">British Transport Police</option>
+        <option value="cambridgeshire">Cambridgeshire</option>
+        <option value="cheshire">Cheshire</option>
+        <option value="city-of-london">City of London</option>
+        <option value="cleveland">Cleveland</option>
+        <option value="cumbria">Cumbria</option>
+        <option value="derbyshire">Derbyshire</option>
+        <option value="devon-and-cornwall">Devon and Cornwall</option>
+        <option value="dorset">Dorset</option>
+        <option value="durham">Durham</option>
+        <option value="dyfed-powys">Dyfed Powys</option>
+        <option value="essex">Essex</option>
+        <option value="gloucestershire">Gloucestershire</option>
+        <option value="greater-manchester">Greater Manchester</option>
+        <option value="gwent">Gwent</option>
+        <option value="hampshire">Hampshire</option>
+        <option value="hertfordshire">Hertfordshire</option>
+        <option value="humberside">Humberside</option>
+        <option value="kent">Kent</option>
+        <option value="lancashire">Lancashire</option>
+        <option value="leicestershire">Leicestershire</option>
+        <option value="lincolnshire">Lincolnshire</option>
+        <option value="merseyside">Merseyside</option>
+        <option value="metropolitan">Metropolitan Police</option>
+        <option value="norfolk">Norfolk</option>
+        <option value="north-wales">North Wales</option>
+        <option value="north-yorkshire">North Yorkshire</option>
+        <option value="northhamptonshire">Northhamptonshire</option>
+        <option value="northern-ireland">Northern Island</option>
+        <option value="northumbria">Northumbria</option>
+        <option value="nottinghamshire">Nottinghamshire</option>
+        <option value="south-wales">South Wales</option>
+        <option value="south-yorkshire">South Yorkshire</option>
+        <option value="staffordshire">Staffordshire</option>
+        <option value="suffolk">Suffolk</option>
+        <option value="surrey">Surrey</option>
+        <option value="sussex">Sussex</option>
+        <option value="thames-valley">Thames Valley</option>
+        <option value="warwickshire">Warwickshire</option>
+        <option value="west-mercia">West Mercia</option>
+        <option value="west-midlands">West Midlands</option>
+        <option value="west-yorkshire">West Yorkshire</option>
+        <option value="wiltshire">Wiltshire</option>
+
+
+      </select>
+    </div>
+    <input id="reloader" type="button" value="Clustered Points" />
+    <input id="heatmapper" type="button" value="Heatmap" />
+    <input id="router" type="button" value="Routing On/Off" />
+    <div id='map'></div>
+    <!--<div id='ui-datepicker-div'></div>-->
+    <script>
+      var month = "";
+      var year = "";
+      var dataUrl = "https://raw.githubusercontent.com/Storage-X-213/Storage-X-213.github.io/master/2016-07/2016-07-suffolk-street.geojson";
+      var active = false;
+      var coordsStart = "";
+      var coordsEnd = "";
+      var analytic = "";
+      var firstClick = true;
+      /*Code for the set up of the Mapbox API */
+      mapboxgl.accessToken = "pk.eyJ1IjoibGVzcCIsImEiOiJjazA4NDNha3kwMWphM29wY2RkbnluZHJzIn0.dFz1M9lx7My6TbmDBJy6qA";
+      var map = new mapboxgl.Map({
+        container: 'map',
+        style: 'mapbox://styles/mapbox/streets-v11',
+        center: [1.1482, 52.0567],
+        minZoom: 10,
+        maxZoom: 16,
+        zoom: 13,
+        dragRotate: false,
+      });
+
+      var canvas = map.getCanvasContainer();
+      map.addControl(new mapboxgl.GeolocateControl({
+        positionOptions: {
+          enableHighAccuracy: true
+        },
+        trackUserLocation: true
+      }));
+      /*Code for the setup of the "month picker"*/
+      $(document).ready(function() {
+        $('#reloader').click(function() {
+          reload();
+        });
+        $('#heatmapper').click(function() {
+          heatmap();
+        });
+        $('#router').click(function() {
+          routing();
+        });
+        $(".monthPicker").datepicker({
+
+          maxDate: new Date(2019, 5, 1),
+          minDate: new Date(2016, 6, 1),
+          changeMonth: true,
+          changeYear: true,
+          showButtonPanel: true,
+
+          onClose: function(dateText, inst, strUser) {
+            month = $("#ui-datepicker-div .ui-datepicker-month :selected").val();
+            year = $("#ui-datepicker-div .ui-datepicker-year :selected").val();
+            $(this).val($.datepicker.formatDate('MM yy', new Date(year, month, 1)));
+
+
+          }
+        });
+
+        $(".monthPicker").focus(function() {
+          $(".ui-datepicker-calendar").hide();
+          $("#ui-datepicker-div").position({
+            my: "center top",
+            at: "center bottom",
+            of: $(this)
+          });
+        });
+      });
+
+
+      map.on('style.load', function() {
+        init();
+      });
+
+      function reload(strUser) {
+        month = $("#ui-datepicker-div .ui-datepicker-month :selected").val();
+        year = $("#ui-datepicker-div .ui-datepicker-year :selected").val();
+        month = parseInt(month, 10) + 1;
+        monthString = month.toString();
+        if (monthString.length == 1) {
+          monthString = "0" + monthString;
+        };
+        if (map.getLayer("crimePoints")) {
+          map.removeLayer("crimePoints")
+        };
+        if (map.getLayer("cluster-count")) {
+          map.removeLayer("cluster-count")
+        };
+        if (map.getSource("crimeData")) {
+          map.removeSource("crimeData")
+        };
+        var e = document.getElementById("constabulary");
+        var strUser = e.options[e.selectedIndex].value;
+        dataUrl = "https://raw.githubusercontent.com/Storage-X-213/Storage-X-213.github.io/master/" + year + "-" + monthString + "/" + year + "-" + monthString + "-" + strUser + "-street.geojson";
+        londonUrl = "https://raw.githubusercontent.com/Storage-X-213/Storage-X-213.github.io/master/" + year + "-" + monthString + "/" + year + "-" + monthString + "-metropolitan-street.geojson";
+        analyse(dataUrl, londonUrl);
+		init();
+
+
+      };
+
+      function routing() {
+        map.off('click', onClick);
+        if (map.getLayer('start')) {
+          map.removeLayer('start');
+        }
+        if (map.getLayer('end')) {
+          map.removeLayer('end');
+        }
+        if (map.getLayer('route')) {
+          map.removeLayer('route');
+        }
+        if (map.getSource('start')) {
+          map.removeSource('start');
+        }
+        if (map.getSource('end')) {
+          map.removeSource('end');
+        }
+        if (map.getSource('route')) {
+          map.removeSource('route');
+        }
+        //Turns routing off if it was on
+        if (active == true) {
+          active = false;
+          console.log(active);
+        }
+        //Turns routing on if it was off
+        else {
+          active = true;
+          //if no clicks have been made
+
+          //start event listener
+          map.on('click', onClick);
+        } //if the first click has been made already
+      }
+
+      function onClick(event) {
+        //terminates listener if no longer active
+        if (active == false) {
+          return;
+        }
+        if (firstClick == true) {
+          var coordsObj = event.lngLat;
+          canvas.style.cursor = '';
+          coordsStart = Object.keys(coordsObj).map(function(key) {
+            return coordsObj[key];
+          });
+          //adds coord location to start source variable
+          var start = {
+            type: 'FeatureCollection',
+            features: [{
+              type: 'Feature',
+              properties: {},
+              geometry: {
+                type: 'Point',
+                coordinates: coordsStart
+              }
+            }]
+          };
+          //if the layer already exists then change the data, if not make it.
+          if (map.getLayer('start')) {
+            map.getSource('start').setData(start);
+          } else {
+            map.addLayer({
+              id: 'start',
+              type: 'circle',
+              source: {
+                type: 'geojson',
+                data: {
+                  type: 'FeatureCollection',
+                  features: [{
+                    type: 'Feature',
+                    properties: {},
+                    geometry: {
+                      type: 'Point',
+                      coordinates: coordsStart
+                    }
+                  }]
+                }
+              },
+              paint: {
+                'circle-radius': 10,
+                'circle-color': '#00ff1e'
+              }
+            });
+          }
+          firstClick = false;
+        } else {
+          if (active == false) {
+            return;
+          }
+          var coordsObj = event.lngLat;
+          canvas.style.cursor = '';
+          coordsEnd = Object.keys(coordsObj).map(function(key) {
+            return coordsObj[key];
+          });
+          //adds coord location to end source variable
+          var end = {
+            type: 'FeatureCollection',
+            features: [{
+              type: 'Feature',
+              properties: {},
+              geometry: {
+                type: 'Point',
+                coordinates: coordsEnd
+              }
+            }]
+          };
+          //if the layer already exists then change the data it if not make it.
+          if (map.getLayer('end')) {
+            map.getSource('end').setData(end);
+          } else {
+            map.addLayer({
+              id: 'end',
+              type: 'circle',
+              source: {
+                type: 'geojson',
+                data: {
+                  type: 'FeatureCollection',
+                  features: [{
+                    type: 'Feature',
+                    properties: {},
+                    geometry: {
+                      type: 'Point',
+                      coordinates: coordsEnd
+                    }
+                  }]
+                }
+              },
+              paint: {
+                'circle-radius': 10,
+                'circle-color': '#f30'
+              }
+            });
+          }
+          firstClick = true;
+        }
+        console.log(coordsStart);
+        console.log(coordsEnd);
+        getRoute(coordsStart, coordsEnd);
+      }
+
+      function getRoute(start, end) {
+        // make a directions request using cycling profile
+        // an arbitrary start will always be the same
+        // only the end or destination will change
+        var url = 'https://api.mapbox.com/directions/v5/mapbox/cycling/' + start[0] + ',' + start[1] + ';' + end[0] + ',' + end[1] + '?steps=true&geometries=geojson&access_token=' + mapboxgl.accessToken;
+
+        // make an XHR request https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest
+        var req = new XMLHttpRequest();
+        req.responseType = 'json';
+        req.open('GET', url, true);
+        req.onload = function() {
+          var data = req.response.routes[0];
+          var route = data.geometry.coordinates;
+          var geojson = {
+            type: 'Feature',
+            properties: {},
+            geometry: {
+              type: 'LineString',
+              coordinates: route
+            }
+          };
+          // if the route already exists on the map, reset it using setData
+          if (map.getSource('route')) {
+            map.getSource('route').setData(geojson);
+          } else { // otherwise, make a new request
+            map.addLayer({
+              id: 'route',
+              type: 'line',
+              source: {
+                type: 'geojson',
+                data: {
+                  type: 'Feature',
+                  properties: {},
+                  geometry: {
+                    type: 'LineString',
+                    coordinates: geojson
+                  }
+                }
+              },
+              layout: {
+                'line-join': 'round',
+                'line-cap': 'round'
+              },
+              paint: {
+                'line-color': '#3887be',
+                'line-width': 5,
+                'line-opacity': 0.75
+              }
+            });
+          }
+          // add turn instructions here at the end
+        };
+        req.send();
+      }
+
+	  function analyse(dataUrl, londonUrl){
+		$.getJSON(dataUrl)
+          .done(function(response) {
+            console.log(response.features.length);
+            var crimeCount = response.features.length;
+            $.getJSON(londonUrl)
+              .done(function(response) {
+                console.log(response.features.length);
+                var londonCount = response.features.length;
+                console.log((londonCount / crimeCount));
+				var multiply =londonCount / crimeCount;
+				var rounded = Math.round(multiply);
+				document.getElementById('analysis').innerHTML = "London has"+rounded+"times more crime than here";
+              })
+          })
+		}
+      function heatmap(strUser) {
+        month = $("#ui-datepicker-div .ui-datepicker-month :selected").val();
+        year = $("#ui-datepicker-div .ui-datepicker-year :selected").val();
+        month = parseInt(month, 10) + 1;
+        monthString = month.toString();
+        if (monthString.length == 1) {
+          monthString = "0" + monthString;
+        };
+        var e = document.getElementById("constabulary");
+        var strUser = e.options[e.selectedIndex].value;
+        dataUrl = "https://raw.githubusercontent.com/Storage-X-213/Storage-X-213.github.io/master/" + year + "-" + monthString + "/" + year + "-" + monthString + "-" + strUser + "-street.geojson";
+        londonUrl = "https://raw.githubusercontent.com/Storage-X-213/Storage-X-213.github.io/master/" + year + "-" + monthString + "/" + year + "-" + monthString + "-metropolitan-street.geojson";
+        analyse(dataUrl, londonUrl);
+        if (map.getLayer("crimePoints")) {
+          map.removeLayer("crimePoints")
+        }
+        if (map.getLayer("cluster-count")) {
+          map.removeLayer("cluster-count")
+        }
+        if (map.getSource("crimeData")) {
+          map.removeSource("crimeData")
+        }
+        map.addSource("crimeData", {
+          type: "geojson",
+          data: dataUrl,
+          cluster: true,
+          clusterMaxZoom: 17, // Max zoom to cluster points on
+          clusterRadius: 1 // Radius of each cluster when clustering points (defaults to 50)	
+
+        });
+        map.addLayer({
+          "id": "crimePoints",
+          "type": "heatmap",
+          "source": "crimeData",
+          'paint': {
+            "heatmap-weight": [
+              "interpolate",
+              ["linear"],
+              ["get", "point_count"],
+              0, 0,
+              1000, 1
+            ],
+            "heatmap-color": [
+              "interpolate",
+              ["linear"],
+              ["heatmap-density"],
+              0, "rgba(33,102,172,0)",
+              0.2, "rgb(103,169,207)",
+              0.4, "rgb(209,229,240)",
+              0.6, "rgb(253,219,199)",
+              0.8, "rgb(239,138,98)",
+              1, "rgb(178,24,43)"
+            ],
+            "heatmap-radius": [
+              "interpolate",
+              ["linear"],
+              ["zoom"],
+              10, 10,
+              16, 40
+
+            ],
+            "heatmap-intensity": [
+              "interpolate",
+              ["linear"],
+              ["zoom"],
+              10, 1,
+              16, 3
+            ],
+          }
+        });
+      };
+
+      function init() {
+
+        map.addSource("crimeData", {
+          type: "geojson",
+          data: dataUrl,
+          cluster: true,
+          clusterMaxZoom: 17, // Max zoom to cluster points on
+          clusterRadius: 40 // Radius of each cluster when clustering points (defaults to 50)
+
+        });
+
+        map.addLayer({
+          "id": "crimePoints",
+          "type": "circle",
+          "source": "crimeData",
+          'paint': {
+            //   * Green, 20px circles when point count is less than 50
+            //   * Yellow, 30px circles when point count is between 50 and 300
+            //   * Red, 40px circles when point count is between 300 and 1000
+            //   * Dark Red, 50px circles when point count above 1000
+            "circle-color": [
+              "step",
+              ["get", "point_count"],
+              "#38FE0D",
+              50,
+              "#FFFC32",
+              300,
+              "#FF0000",
+              1000,
+              "#C40000"
+            ],
+
+            "circle-radius": [
+              "step",
+              ["get", "point_count"],
+              20,
+              50,
+              30,
+              300,
+              40,
+              1000,
+              50
+            ]
+          }
+        });
+		
+        map.addLayer({
+          id: "cluster-count",
+          type: "symbol",
+          source: "crimeData",
+          filter: ["has", "point_count"],
+          layout: {
+            "text-field": "{point_count_abbreviated}",
+            "text-font": ["DIN Offc Pro Medium", "Arial Unicode MS Bold"],
+            "text-size": 12
+          }
+        });
+
+        map.on('click', 'crimePoints', function(e) {
+
+          var features = map.queryRenderedFeatures(e.point, {
+            layers: ['crimePoints']
+          });
+          var clusterId = features[0].properties.cluster_id;
+          var point_count = features[0].properties.point_count;
+          var clusterSource = map.getSource('crimeData');
+          console.log(point_count);
+          // If a point is a cluster	
+          if (point_count > 1) {
+            clusterSource.getClusterLeaves(clusterId, point_count, 0, function(err, aFeatures) {
+              var coordinates = aFeatures[0].geometry.coordinates.slice();
+              var points = aFeatures;
+              var i = 0;
+              var description = "Crimes found are: ";
+              while (i < point_count) {
+                var description = description + points[i].properties.description + ", ";
+                i++;
+              };
+              new mapboxgl.Popup()
+                .setLngLat(coordinates)
+                .setHTML(description)
+                .addTo(map);
+            })
+          } else {
+            var coordinates = e.features[0].geometry.coordinates.slice();
+            var description = e.features[0].properties.description;
+            new mapboxgl.Popup()
+              .setLngLat(coordinates)
+              .setHTML(description)
+              .addTo(map);
+          };
+
+        });
+        // Change the cursor to a pointer when the mouse is over the places layer.
+        map.on('mouseenter', 'places', function() {
+          map.getCanvas().style.cursor = 'pointer';
+        });
+
+        // Change it back to a pointer when it leaves.
+        map.on('mouseleave', 'places', function() {
+          map.getCanvas().style.cursor = '';
+        });
+      };
+
+    </script>
+
+  </body>
+
+</html>
