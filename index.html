@@ -176,6 +176,7 @@
 
       function routing() {
         map.off('click', onClick);
+	//if a layer exists remove it
         if (map.getLayer('start')) {
           map.removeLayer('start');
         }
@@ -185,6 +186,7 @@
         if (map.getLayer('route')) {
           map.removeLayer('route');
         }
+	//if a source exists remove it
         if (map.getSource('start')) {
           map.removeSource('start');
         }
@@ -202,11 +204,9 @@
         //Turns routing on if it was off
         else {
           active = true;
-          //if no clicks have been made
-
           //start event listener
           map.on('click', onClick);
-        } //if the first click has been made already
+        } 
       }
 
       function onClick(event) {
